@@ -1,0 +1,43 @@
+.board {
+    display: inline-block;
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.board-row {
+    display: flex;
+}
+
+.cell {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cell.valid {
+    background: #fff;
+}
+
+.cell.invalid {
+    background: #f0f0f0;
+    cursor: default;
+}
+
+.piece {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.player1 {
+    background: #ff4444;
+}
+
+.player2 {
+    background: #4444ff;
+} 

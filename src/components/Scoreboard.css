@@ -1,0 +1,19 @@
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.player {
+    padding: 20px;
+    border-radius: 10px;
+    background: #f0f0f0;
+    text-align: center;
+}
+
+.player.active {
+    background: #e0e0e0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} 
